@@ -9,12 +9,12 @@
       "registry_name": "welcome"
     },
     {
-      "name": "Ttteeesssstttttt",
-      "type": "recipe",
+      "name": "Testestest",
+      "type": "tag",
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ttteeesssstttttt"
+      "registry_name": "testestest"
     }
   ],
   "variable_elements": [],
