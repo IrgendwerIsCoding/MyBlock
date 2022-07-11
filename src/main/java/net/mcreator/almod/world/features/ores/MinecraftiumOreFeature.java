@@ -30,6 +30,8 @@ import net.minecraft.data.worldgen.features.FeatureUtils;
 import net.minecraft.core.Registry;
 import net.minecraft.core.Holder;
 
+import net.mcreator.almod.init.AlmodModBlocks;
+
 import java.util.Set;
 import java.util.Random;
 import java.util.List;
@@ -42,10 +44,10 @@ public class MinecraftiumOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new MinecraftiumOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("almod:minecraftium_ore", FEATURE,
-				new OreConfiguration(MinecraftiumOreFeatureRuleTest.INSTANCE, AlmodModBlocks.MINECRAFTIUM_ORE.get().defaultBlockState(), 7));
+				new OreConfiguration(MinecraftiumOreFeatureRuleTest.INSTANCE, AlmodModBlocks.MINECRAFTIUM_ORE.get().defaultBlockState(), 1));
 		PLACED_FEATURE = PlacementUtils.register("almod:minecraftium_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(11), InSquarePlacement.spread(),
-						HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(63)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(1), InSquarePlacement.spread(),
+						HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(2)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
