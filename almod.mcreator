@@ -7,6 +7,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "welcome"
+    },
+    {
+      "name": "Testtttt",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testtttt"
     }
   ],
   "variable_elements": [],
