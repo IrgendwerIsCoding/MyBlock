@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "almod:minecraftium_ore"
+  },
+  "result": "almod:minecraftium_dust"
+}

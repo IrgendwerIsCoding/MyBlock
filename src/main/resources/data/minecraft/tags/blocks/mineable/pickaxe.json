@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "almod:minecraftium_ore",
+    "almod:minecraftium_block"
+  ]
+}

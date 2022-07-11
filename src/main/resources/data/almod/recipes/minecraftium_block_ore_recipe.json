@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almod:minecraftium_block"
+    }
+  ],
+  "result": {
+    "item": "almod:minecraftium_dust",
+    "count": 9
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "almod:minecraftium_dust"
+    },
+    "1": {
+      "item": "almod:minecraftium_dust"
+    },
+    "2": {
+      "item": "almod:minecraftium_dust"
+    },
+    "3": {
+      "item": "almod:minecraftium_dust"
+    },
+    "4": {
+      "item": "almod:minecraftium_dust"
+    },
+    "5": {
+      "item": "almod:minecraftium_dust"
+    },
+    "6": {
+      "item": "almod:minecraftium_dust"
+    },
+    "7": {
+      "item": "almod:minecraftium_dust"
+    },
+    "8": {
+      "item": "almod:minecraftium_dust"
+    }
+  },
+  "result": {
+    "item": "almod:minecraftium_block",
+    "count": 1
+  }
+}
