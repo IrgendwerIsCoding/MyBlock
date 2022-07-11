@@ -15,6 +15,54 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "testtttt"
+    },
+    {
+      "name": "MinecraftiumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minecraftium_block_ore_recipe"
+    },
+    {
+      "name": "MinecraftiumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minecraftium_ore_block_recipe"
+    },
+    {
+      "name": "MinecraftiumOreSmelting",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minecraftium_ore_smelting"
+    },
+    {
+      "name": "MinecraftiumOre",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minecraftium_ore"
+    },
+    {
+      "name": "MinecraftiumBlock",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minecraftium_block"
+    },
+    {
+      "name": "MinecraftiumDust",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minecraftium_dust"
     }
   ],
   "variable_elements": [],
@@ -22,7 +70,10 @@
   "language_map": {
     "en_us": {
       "advancements.welcome.title": "Welcome",
-      "advancements.welcome.descr": "Test"
+      "block.almod.minecraftium_block": "Block of Minecraftium",
+      "advancements.welcome.descr": "Test",
+      "block.almod.minecraftium_ore": "Minecraftium Ore",
+      "item.almod.minecraftium_dust": "Minecraftium"
     }
   },
   "foldersRoot": {
