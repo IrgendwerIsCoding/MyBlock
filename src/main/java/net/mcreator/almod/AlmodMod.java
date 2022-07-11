@@ -26,10 +26,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.almod.init.AlmodModItems;
-import net.mcreator.almod.init.AlmodModFeatures;
-import net.mcreator.almod.init.AlmodModBlocks;
-
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -46,10 +42,6 @@ public class AlmodMod {
 	public AlmodMod() {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-		AlmodModBlocks.REGISTRY.register(bus);
-		AlmodModItems.REGISTRY.register(bus);
-
-		AlmodModFeatures.REGISTRY.register(bus);
 
 	}
 

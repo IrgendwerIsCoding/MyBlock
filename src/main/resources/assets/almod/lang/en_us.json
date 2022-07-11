@@ -1,7 +1,4 @@
 {
   "advancements.welcome.title": "Welcome",
-  "block.almod.minecraftium_block": "Block of Minecraftium",
-  "advancements.welcome.descr": "Test",
-  "block.almod.minecraftium_ore": "Minecraftium Ore",
-  "item.almod.minecraftium_dust": "Minecraftium"
+  "advancements.welcome.descr": "Test"
 }
